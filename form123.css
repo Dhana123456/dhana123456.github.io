@@ -1,0 +1,62 @@
+h1{
+    text-align: center;
+}
+
+form{
+    margin: 20px;
+    padding: 20px 20px;
+    background-color:  #1e847f;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+input[type="text"]
+{
+    width: 100%;
+    padding:10px 7px;
+    margin: 7px;
+    border-radius: 5px;
+    
+}
+
+input[type="email"]
+{
+    width:100%;
+    padding:10px 7px;
+    margin: 7px;
+    border-radius: 5px;
+}
+
+input[type="address"]
+{
+    width:100%;
+    height:100px;
+    margin: 7px;
+    padding:10px 7px;
+    border-radius: 5px;
+}
+
+button{
+    border-radius: 3px;
+    width: 50%;
+    padding: 13px;
+    text-align: left;
+    margin-left:25%;
+    text-align: center;
+    background-color: #c4a35a;
+    color:black;
+    border: none;
+    margin-top: 10px;
+    
+   
+}
+
+button[type="submit"]:hover
+{
+    background-color:#c66b3d;
+    color:black;
+}
+
+input[type="date"]
+{
+    margin:7px
+}
